@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Icon } from "./icons/Icon";
 import { LogoNav } from "./LogoNav";
 
-export const Nav = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+export const Nav = ({ isOpen, setIsOpen }) => {
   return (
     <div>
       <nav className="nav">
@@ -38,80 +37,6 @@ export const Nav = () => {
           </ul>
         </div>
       </nav>
-      <main className={isOpen ? "main active" : "main"}>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
-          cumque adipisci tenetur omnis, labore consectetur repudiandae ipsum ad
-          amet eligendi iste unde laudantium obcaecati, tempore laboriosam
-          officiis fugit illum!
-        </p>
-      </main>
     </div>
   );
 };
