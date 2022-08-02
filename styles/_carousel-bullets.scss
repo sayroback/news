@@ -26,15 +26,15 @@
     margin-left: 30px;
   }
   .arrows {
-    display: flex;
     .arrow {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       width: 65px;
-      span {
-        font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-        color: $black;
-        font-weight: bold;
-        font-size: 22px;
-      }
+      height: 65px;
+      background-color: #ffffff;
+      color: $black;
+      vertical-align: middle;
     }
     .arrow.next {
       background-color: $gris;

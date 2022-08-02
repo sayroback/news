@@ -6,7 +6,7 @@ export const Icon = ({ children, ...rest }) => {
       id={rest.id}
       className={`material-symbols-outlined ${rest.className}`}
     >
-      {children}
+      {rest.icon}
     </span>
   );
 };

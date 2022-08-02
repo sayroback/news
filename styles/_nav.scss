@@ -7,15 +7,27 @@
     .menu__logo h1 {
       margin: 0;
     }
-    .close {
+    .menu.close {
       display: none;
-      background-color: rgb(126, 20, 20);
     }
-    .close.active {
-      display: block;
+    .menu.close.active {
+      display: flex;
+    }
+    .menu.active {
+      display: none;
     }
     .menu {
       cursor: pointer;
+      background-color: $rojo2;
+      width: 40px;
+      height: 40px;
+      position: relative;
+      z-index: 5;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(126, 20, 20);
+      color: white;
     }
   }
   &__menu {
@@ -52,17 +64,4 @@
 .nav__menu.active {
   transition: all 0.8s;
   transform: translate(100%, 0);
-}
-
-.openMenu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  z-index: 2;
-  background-color: rgb(126, 20, 20);
-  width: 40px;
-  height: 40px;
-  span {
-    color: white;
-  }
 }

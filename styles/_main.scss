@@ -1,21 +1,20 @@
-.main {
+.main--mobile {
   transition: all 1s;
   border-radius: 4px;
   box-shadow: -10px 10px 20px #0a0a0a5d;
   position: relative;
-  z-index: 1;
   .prominent {
     padding: 0 16px;
   }
 }
-.main.active {
+.main--mobile.active {
   transition: all 1s;
   transform: translateX(58%);
 }
 .menu.active {
   display: none;
 }
-.main--mobile {
+.main {
   background-blend-mode: soft-light;
   background-color: #0000009f;
   background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 import React from "react";
-import { SecondaryButton } from "./SecondaryButton";
+import { Button } from "./Button";
 
 export const CarouselBullets = () => {
   const numberArticles = 5;
@@ -15,8 +15,8 @@ export const CarouselBullets = () => {
           ))}
         </div>
         <div className="arrows">
-          <SecondaryButton className="arrow preview">{"<"}</SecondaryButton>
-          <SecondaryButton className="arrow next">{">"}</SecondaryButton>
+          <Button icon="chevron_left" className="arrow preview" />
+          <Button icon="navigate_next" className="arrow next" />
         </div>
       </div>
     </>

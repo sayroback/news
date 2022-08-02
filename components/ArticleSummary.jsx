@@ -14,7 +14,7 @@ export const ArticleSummary = () => {
         quasi?
       </p>
       <div className="summary__article__date">
-        <Icon>calendar_month</Icon>
+        <Icon icon="calendar_month" />
         <small>16 May 2022</small>
       </div>
     </div>

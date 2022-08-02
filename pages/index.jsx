@@ -23,12 +23,12 @@ export default function Home() {
       <div className="hero__logo">
         <LogoNav />
       </div>
-      <Main className="main--mobile">
-        <div className={isOpen ? "main active" : "main"}>
+      <div className={isOpen ? "main--mobile active" : "main--mobile"}>
+        <Main className="main">
           <Hero />
-          <PopularArticles />
-        </div>
-      </Main>
+        </Main>
+        <PopularArticles />
+      </div>
     </>
   );
 }

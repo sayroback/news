@@ -11,13 +11,16 @@ export const Nav = ({ isOpen, setIsOpen }) => {
             onClick={() => setIsOpen((prevState) => !prevState)}
             className="openMenu"
           >
-            <Icon className={isOpen ? "menu active" : "menu"}>menu</Icon>
-            <Icon className={isOpen ? "close active" : "close"}>close</Icon>
+            <Icon className={isOpen ? "menu active" : "menu"} icon="menu" />
+            <Icon
+              className={isOpen ? "menu close active" : "menu close"}
+              icon="close"
+            />
           </div>
           <div className="menu__logo">
             <LogoNav />
           </div>
-          <Icon className="search">search</Icon>
+          <Icon className="search" icon="search" />
         </header>
 
         <div className={isOpen ? "nav__menu active" : "nav__menu"}>
