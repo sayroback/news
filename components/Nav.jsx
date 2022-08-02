@@ -4,7 +4,7 @@ import { LogoNav } from "./LogoNav";
 
 export const Nav = ({ isOpen, setIsOpen }) => {
   return (
-    <div>
+    <>
       <nav className="nav">
         <header>
           <div
@@ -37,6 +37,6 @@ export const Nav = ({ isOpen, setIsOpen }) => {
           </ul>
         </div>
       </nav>
-    </div>
+    </>
   );
 };

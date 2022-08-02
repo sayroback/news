@@ -1,0 +1,11 @@
+.popular-articles {
+  height: 500px;
+  background-color: $black;
+  color: white;
+  padding-top: 1px;
+  h3 {
+    padding-left: 8px;
+    border-left: 4px solid $rojo;
+    line-height: 32px;
+  }
+}
