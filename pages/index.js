@@ -7,13 +7,11 @@ import { Nav } from "../components/Nav";
 import { PrimaryButton } from "../components/PrimaryButton";
 import { SecondaryButton } from "../components/SecondaryButton";
 import { User } from "../components/User";
-import news1 from "../public/news1.jpg";
+
+const news1 = "https://i.ibb.co/H21GBGk/news2.jpg";
 
 const Hero = styled.div`
-  border: 1px solid #000;
   background-image: url(${news1});
-  width: 2000px;
-  height: 2000px;
 `;
 
 export default function Home() {
@@ -25,7 +23,7 @@ export default function Home() {
       </Head>
       <div>
         <Nav isOpen={isOpen} setIsOpen={setIsOpen} />
-        <Hero news1={news1} className="hero--mobile">
+        <Hero className="hero--mobile">
           <main className={isOpen ? "main active" : "main"}>
             <SecondaryButton>New Articles</SecondaryButton>
             <User />
