@@ -1,10 +1,12 @@
 .main {
   transition: all 1s;
-  padding: 14px;
   border-radius: 4px;
   box-shadow: -10px 10px 20px #0a0a0a5d;
   position: relative;
   z-index: 1;
+  .prominent {
+    padding: 0 16px;
+  }
 }
 .main.active {
   transition: all 1s;
@@ -19,4 +21,5 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 486px;
 }

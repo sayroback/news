@@ -12,7 +12,7 @@ import { User } from "../components/User";
 
 export const Hero = () => {
   return (
-    <div>
+    <div className="prominent">
       <SecondaryButton className="summary__new">New Articles</SecondaryButton>
       <div className="summary">
         <User />

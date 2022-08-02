@@ -26,9 +26,9 @@ export default function Home() {
       <Main className="main--mobile">
         <div className={isOpen ? "main active" : "main"}>
           <Hero />
+          <PopularArticles />
         </div>
       </Main>
-      <PopularArticles />
     </>
   );
 }
