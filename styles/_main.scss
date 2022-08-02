@@ -1,10 +1,10 @@
 .main {
   transition: all 1s;
-  padding: 8px;
+  padding: 14px;
   border-radius: 4px;
-  box-shadow: -40px 20px 60px #00000044;
+  box-shadow: -10px 10px 20px #0a0a0a5d;
   position: relative;
-  z-index: 3;
+  z-index: 1;
 }
 .main.active {
   transition: all 1s;

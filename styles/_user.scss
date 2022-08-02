@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   color: white;
-  gap: 6px;
+  gap: 12px;
   &__img-container {
     margin: 0;
     width: 40px;
@@ -22,5 +22,6 @@
   }
   &__role {
     font-size: 12px;
+    font-weight: bold;
   }
 }

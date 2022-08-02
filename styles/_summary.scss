@@ -1,6 +1,39 @@
 .summary {
-  h1 {
-    color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+  &__article {
+    h1 {
+      color: rgb(255, 255, 255);
+    }
+    &__category {
+      display: inline-flex;
+      margin-right: 8px;
+      border-bottom: 1px solid #fff;
+      width: 25px;
+      position: relative;
+      top: -3px;
+    }
+    color: #fff;
+    p {
+      padding-top: 20px;
+      text-align: justify;
+    }
+    small {
+      font-weight: 600;
+    }
+    &__date {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
   }
-  color: #fff;
+
+  &__new {
+    position: relative;
+    top: -40px;
+    left: -14px;
+  }
+  &__read {
+    display: flex;
+    justify-content: end;
+  }
 }
