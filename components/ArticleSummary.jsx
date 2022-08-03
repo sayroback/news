@@ -1,11 +1,11 @@
 import React from "react";
 import { Icon } from "./icons/Icon";
 
-export const ArticleSummary = () => {
+export const ArticleSummary = ({ className }) => {
   return (
-    <div className="summary__article">
+    <div className={`${className}__article`}>
       <h1>Titulo del articulo</h1>
-      <div className="summary__article__category"></div>
+      <div className={`${className}__article__category`}></div>
       <small>Categoría</small>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
@@ -13,7 +13,7 @@ export const ArticleSummary = () => {
         enim iusto similique saepe veniam harum, consectetur dicta fugiat labore
         quasi?
       </p>
-      <div className="summary__article__date">
+      <div className={`${className}__article__date`}>
         <Icon icon="calendar_month" />
         <small>16 May 2022</small>
       </div>
