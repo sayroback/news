@@ -18,7 +18,7 @@ export const Hero = () => {
       ></Button>
       <div className="summary">
         <User />
-        <ArticleSummary />
+        <ArticleSummary className="summary" />
       </div>
       <div className="summary__read">
         <Button

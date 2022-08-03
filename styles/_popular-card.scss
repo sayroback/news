@@ -1,0 +1,48 @@
+.popular-card {
+  padding-top: 1px;
+  width: 60%;
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    .read--popular {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0000006c;
+      border: 3px solid #cecece;
+      opacity: 0.7;
+      width: 55px;
+      height: 55px;
+      cursor: pointer;
+    }
+    .read--popular:hover {
+      background-color: $rojo;
+      opacity: 0.95;
+      border: none;
+    }
+  }
+  &__resume {
+    &__article {
+      h1 {
+        display: none;
+      }
+      &__category {
+        display: none;
+      }
+      > small {
+        display: none;
+      }
+      p {
+        text-align: justify;
+      }
+      &__date {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
