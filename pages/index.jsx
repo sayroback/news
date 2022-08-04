@@ -2,11 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
 import styled from "styled-components";
+import { Colaboracion } from "../components/Colaboracion";
 import { Hero } from "../components/Hero";
 import { LogoNav } from "../components/LogoNav";
 import { Nav } from "../components/Nav";
 import { PopularArticles } from "../components/PopularArticles";
-import sitiowebconstruccion from "../public/sitio-web-construccion.jpg";
 
 const news1 = "https://i.ibb.co/H21GBGk/news2.jpg";
 
@@ -31,7 +31,7 @@ export default function Home() {
         </Main>
         <PopularArticles />
       </div>
-      <Image src={sitiowebconstruccion} alt="En construcción" />
+      <Colaboracion />
     </>
   );
 }
